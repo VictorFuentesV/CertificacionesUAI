@@ -76,10 +76,8 @@
     "webpack-cli": "^5.1.4"
   },
   "options": {
-    "allowedHosts": [
-      "localhost",
-      ".localhost"
-    ],
+    "allowedHosts": ["localhost", ".localhost"],
     "proxy": "https://localhost:3386/"
-  }
+  },
+  "engines": { "node": ">=18.0.0" }
 }
